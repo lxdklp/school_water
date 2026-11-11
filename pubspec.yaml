@@ -1,0 +1,26 @@
+name: water
+description: 校园喝水与洗澡，独立账号与可恢复的用水会话。
+publish_to: none
+version: 1.0.7+8
+environment:
+  sdk: ^3.13.7
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  dio: ^5.11.1
+  dynamic_color: ^2.1.0
+  crypto: ^3.0.8
+  mobile_scanner: ^7.5.0
+  flutter_secure_storage: ^11.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/licenses/lightlife.txt
